@@ -1,0 +1,781 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "AstroMods-1.19.2",
+      "name": "AstroMods (Minecraft 1.19.2)",
+      "description": "AstroMods Running Minecraft 1.19.2 (Forge v43.3.0)",
+      "icon": "https://www.dropbox.com/scl/fi/5fksm5n0amhf42e24g2y4/logo_astromods.png?rlkey=owky7czh547lfm986z3fr199d&dl=0",
+      "version": "1.0.0",
+      "address": "hyranio.minesr.com:25565",
+      "minecraftVersion": "1.19.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.19.2-43.3.0",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7374,
+            "MD5": "0354722ec9c17a9db17709f0a45688c0",
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/net/minecraftforge/lowcodelanguage/1.19.2-43.3.0/lowcodelanguage-1.19.2-43.3.0.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.19.2-43.3.0",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 15497,
+                "MD5": "3dd83885100878f1d99a613e913e8d86",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/versions/1.19.2-forge-43.3.0/1.19.2-forge-43.3.0.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.19.2-43.3.0",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 112531,
+                "MD5": "3ec9334dbbd9b222dc521daee27cde10",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/net/minecraftforge/fmlcore/1.19.2-43.3.0/fmlcore-1.19.2-43.3.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.19.2-43.3.0",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16348,
+                "MD5": "de57cf52eda75b5b401102e823ff9726",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/net/minecraftforge/javafmllanguage/1.19.2-43.3.0/javafmllanguage-1.19.2-43.3.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.19.2-43.3.0",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4982,
+                "MD5": "8902b15fa6917c61761d997935e60306",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/net/minecraftforge/mclanguage/1.19.2-43.3.0/mclanguage-1.19.2-43.3.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19.2-43.3.0:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2638779,
+                "MD5": "06fdeffe211d59b9556f6339637606bb",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/net/minecraftforge/forge/1.19.2-43.3.0/forge-1.19.2-43.3.0-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19.2-43.3.0:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 5417571,
+                "MD5": "3fd51c98b49149e573df70ac94ee206e",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/net/minecraftforge/forge/1.19.2-43.3.0/forge-1.19.2-43.3.0-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 17332865,
+                "MD5": "70476cb0e2de11b97d913169c3b9d5a8",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 11637719,
+                "MD5": "7ae1ac1daf86584f93ae83dd916d3bdb",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19.2-20220805.130853:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10007043,
+                "MD5": "3014cfce92de3aff55cc50908a510051",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.4",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 87315,
+                "MD5": "b49ceccef2c091769f134c47c108cb8b",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/cpw/mods/securejarhandler/2.1.4/securejarhandler-2.1.4.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.5",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 121863,
+                "MD5": "29721ee4b5eacf0a34b204c345c8bc69",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/org/ow2/asm/asm/9.5/asm-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.5",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72209,
+                "MD5": "7d1fce986192f71722b19754e4cb9e61",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.5",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51944,
+                "MD5": "44755681b7d6fa7143afbb438e55c20c",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.5",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91076,
+                "MD5": "ad0016249fb68bb9196babefd47b80dc",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.5",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 33978,
+                "MD5": "4df0adafc78ebba404d4037987d36b61",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.3",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 52624,
+                "MD5": "7c93693a70962a1c1893e3c058dca5cf",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/net/minecraftforge/eventbus/6.0.3/eventbus-6.0.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:6.0.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 32714,
+                "MD5": "8c04b8c26ac1d55c281bfeaa71731414",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/net/minecraftforge/forgespi/6.0.0/forgespi-6.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.0.1",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24199,
+                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.8",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130263,
+                "MD5": "3e171edcc29e762d2ecafffabb9e9341",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/cpw/mods/modlauncher/10.0.8/modlauncher-10.0.8.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.16",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "5e859d6320cb16055febaedacb8b9806",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/net/minecraftforge/JarJarSelector/0.3.16/JarJarSelector-0.3.16.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.16",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15242,
+                "MD5": "332b118877d33c715f3ee67b75bffdd7",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/net/minecraftforge/JarJarMetadata/0.3.16/JarJarMetadata-0.3.16.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.16",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32052,
+                "MD5": "f4efd51f520cb4c98483c040bdc58aab",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.16/JarJarFileSystems-0.3.16.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.19.2-43.3.0",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 261376,
+                "MD5": "a97a7b065aed6a0f9431a7b4450c0acd",
+                "url": "http://astromodsnebula.infinityfreeapp.com/nebula/repo/lib/net/minecraftforge/fmlloader/1.19.2-43.3.0/fmlloader-1.19.2-43.3.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "vazkii.arl:autoreglib:1.8.2-55@jar",
+          "name": "AutoRegLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 45741,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/forgemods/required/AutoRegLib-1.8.2-55.jar",
+            "MD5": "8d0cfc46ea0c7334ff511eff2bb3e9ce"
+          }
+        },
+        {
+          "id": "net.mrscauthd:beyond_earth:6.4f@jar",
+          "name": "Beyond Earth",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5302953,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/forgemods/required/Beyond-Earth-1.19.2-6.4f.jar",
+            "MD5": "1a733846206735191346a885cb71463d"
+          }
+        },
+        {
+          "id": "thetadev.constructionwand:constructionwand:1.20.2-2.12@jar",
+          "name": "Construction Wand",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 212914,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/forgemods/required/constructionwand-1.20.2-2.12.jar",
+            "MD5": "cc2c8dcb69d8ce339bdf909c991f97bb"
+          }
+        },
+        {
+          "id": "com.simibubi:create:0.5.1.f@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14913092,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/forgemods/required/create-1.19.2-0.5.1.f.jar",
+            "MD5": "668b745f59e48c87ee4210ba8edb3993"
+          }
+        },
+        {
+          "id": "com.blakebr0:cucumber:6.0.10@jar",
+          "name": "Cucumber Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 193456,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/forgemods/required/Cucumber-1.19.2-6.0.10.jar",
+            "MD5": "7a73e0a4c973d0148c16503f3a2cc3d2"
+          }
+        },
+        {
+          "id": "com.blakebr0:ironjetpacks:6.0.6@jar",
+          "name": "Iron Jetpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 158055,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/forgemods/required/IronJetpacks-1.19.2-6.0.6.jar",
+            "MD5": "ddc20cd2d6074078b8fd5b5cd005354d"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:11.6.0.1018@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1090468,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/forgemods/required/jei-1.19.2-forge-11.6.0.1018.jar",
+            "MD5": "b470cd69dbce10060db0f51ec90dfb36"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.9.7@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7091512,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/forgemods/required/journeymap-1.19.2-5.9.7-forge.jar",
+            "MD5": "617122169f0ed16dd79cd48978d0e9c8"
+          }
+        },
+        {
+          "id": "fi.dy.masa.malilib:mafglib:0.1.7-mc1.19.2@jar",
+          "name": "MaFgLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 511572,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/forgemods/required/MaFgLib-0.1.7-mc1.19.2.jar",
+            "MD5": "a46b532b42b07e2e2f2baceb512356dc"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.19.2_HD_U_I2@jar",
+          "name": "OptiFine",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6924339,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/forgemods/optionalon/OptiFine_1.19.2_HD_U_I2.jar",
+            "MD5": "0d993ded4b5172124a2184a4b02ec9d6"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "vazkii.quark.base:quark:3.4-418@jar",
+          "name": "Quark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15024651,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/forgemods/required/Quark-3.4-418.jar",
+            "MD5": "3cac1bb0a53b47bd7dec351b6d675de7"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedbackpacks:1.19.2-3.19.4.977@jar",
+          "name": "Sophisticated Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 822747,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/forgemods/required/sophisticatedbackpacks-1.19.2-3.19.4.977.jar",
+            "MD5": "dcaf16d2f80083a14a4d6e561be60ca2"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedcore:1.19.2-0.5.109.516@jar",
+          "name": "Sophisticated Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1051856,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/forgemods/required/sophisticatedcore-1.19.2-0.5.109.516.jar",
+            "MD5": "e760ca87533f362434b1c4bde889380a"
+          }
+        },
+        {
+          "id": "com.jaquadro.minecraft:storagedrawers:11.1.2@jar",
+          "name": "Storage Drawers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580748,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/forgemods/required/StorageDrawers-1.19-11.1.2.jar",
+            "MD5": "3f65972ac73962b980a5c7facf24292e"
+          }
+        },
+        {
+          "id": "AutoRegLib-1.8.2-55.jar",
+          "name": "AutoRegLib-1.8.2-55.jar",
+          "type": "File",
+          "artifact": {
+            "size": 45741,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/files/mods/AutoRegLib-1.8.2-55.jar",
+            "MD5": "8d0cfc46ea0c7334ff511eff2bb3e9ce",
+            "path": "mods/AutoRegLib-1.8.2-55.jar"
+          }
+        },
+        {
+          "id": "Beyond-Earth-1.19.2-6.4f.jar",
+          "name": "Beyond-Earth-1.19.2-6.4f.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5302953,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/files/mods/Beyond-Earth-1.19.2-6.4f.jar",
+            "MD5": "1a733846206735191346a885cb71463d",
+            "path": "mods/Beyond-Earth-1.19.2-6.4f.jar"
+          }
+        },
+        {
+          "id": "constructionwand-1.20.2-2.12.jar",
+          "name": "constructionwand-1.20.2-2.12.jar",
+          "type": "File",
+          "artifact": {
+            "size": 212914,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/files/mods/constructionwand-1.20.2-2.12.jar",
+            "MD5": "cc2c8dcb69d8ce339bdf909c991f97bb",
+            "path": "mods/constructionwand-1.20.2-2.12.jar"
+          }
+        },
+        {
+          "id": "create-1.19.2-0.5.1.f.jar",
+          "name": "create-1.19.2-0.5.1.f.jar",
+          "type": "File",
+          "artifact": {
+            "size": 14913092,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/files/mods/create-1.19.2-0.5.1.f.jar",
+            "MD5": "668b745f59e48c87ee4210ba8edb3993",
+            "path": "mods/create-1.19.2-0.5.1.f.jar"
+          }
+        },
+        {
+          "id": "Cucumber-1.19.2-6.0.10.jar",
+          "name": "Cucumber-1.19.2-6.0.10.jar",
+          "type": "File",
+          "artifact": {
+            "size": 193456,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/files/mods/Cucumber-1.19.2-6.0.10.jar",
+            "MD5": "7a73e0a4c973d0148c16503f3a2cc3d2",
+            "path": "mods/Cucumber-1.19.2-6.0.10.jar"
+          }
+        },
+        {
+          "id": "IronJetpacks-1.19.2-6.0.6.jar",
+          "name": "IronJetpacks-1.19.2-6.0.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 158055,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/files/mods/IronJetpacks-1.19.2-6.0.6.jar",
+            "MD5": "ddc20cd2d6074078b8fd5b5cd005354d",
+            "path": "mods/IronJetpacks-1.19.2-6.0.6.jar"
+          }
+        },
+        {
+          "id": "jei-1.19.2-forge-11.6.0.1018.jar",
+          "name": "jei-1.19.2-forge-11.6.0.1018.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1090468,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/files/mods/jei-1.19.2-forge-11.6.0.1018.jar",
+            "MD5": "b470cd69dbce10060db0f51ec90dfb36",
+            "path": "mods/jei-1.19.2-forge-11.6.0.1018.jar"
+          }
+        },
+        {
+          "id": "journeymap-1.19.2-5.9.7-forge.jar",
+          "name": "journeymap-1.19.2-5.9.7-forge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 7091512,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/files/mods/journeymap-1.19.2-5.9.7-forge.jar",
+            "MD5": "617122169f0ed16dd79cd48978d0e9c8",
+            "path": "mods/journeymap-1.19.2-5.9.7-forge.jar"
+          }
+        },
+        {
+          "id": "MaFgLib-0.1.7-mc1.19.2.jar",
+          "name": "MaFgLib-0.1.7-mc1.19.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 511572,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/files/mods/MaFgLib-0.1.7-mc1.19.2.jar",
+            "MD5": "a46b532b42b07e2e2f2baceb512356dc",
+            "path": "mods/MaFgLib-0.1.7-mc1.19.2.jar"
+          }
+        },
+        {
+          "id": "OptiFine_1.19.2_HD_U_I2.jar",
+          "name": "OptiFine_1.19.2_HD_U_I2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6924339,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/files/mods/OptiFine_1.19.2_HD_U_I2.jar",
+            "MD5": "0d993ded4b5172124a2184a4b02ec9d6",
+            "path": "mods/OptiFine_1.19.2_HD_U_I2.jar"
+          }
+        },
+        {
+          "id": "Quark-3.4-418.jar",
+          "name": "Quark-3.4-418.jar",
+          "type": "File",
+          "artifact": {
+            "size": 15024651,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/files/mods/Quark-3.4-418.jar",
+            "MD5": "3cac1bb0a53b47bd7dec351b6d675de7",
+            "path": "mods/Quark-3.4-418.jar"
+          }
+        },
+        {
+          "id": "sophisticatedbackpacks-1.19.2-3.19.4.977.jar",
+          "name": "sophisticatedbackpacks-1.19.2-3.19.4.977.jar",
+          "type": "File",
+          "artifact": {
+            "size": 822747,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/files/mods/sophisticatedbackpacks-1.19.2-3.19.4.977.jar",
+            "MD5": "dcaf16d2f80083a14a4d6e561be60ca2",
+            "path": "mods/sophisticatedbackpacks-1.19.2-3.19.4.977.jar"
+          }
+        },
+        {
+          "id": "sophisticatedcore-1.19.2-0.5.109.516.jar",
+          "name": "sophisticatedcore-1.19.2-0.5.109.516.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1051856,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/files/mods/sophisticatedcore-1.19.2-0.5.109.516.jar",
+            "MD5": "e760ca87533f362434b1c4bde889380a",
+            "path": "mods/sophisticatedcore-1.19.2-0.5.109.516.jar"
+          }
+        },
+        {
+          "id": "StorageDrawers-1.19-11.1.2.jar",
+          "name": "StorageDrawers-1.19-11.1.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 580748,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/files/mods/StorageDrawers-1.19-11.1.2.jar",
+            "MD5": "3f65972ac73962b980a5c7facf24292e",
+            "path": "mods/StorageDrawers-1.19-11.1.2.jar"
+          }
+        },
+        {
+          "id": "+§bHealtBars§8-[v1.5].zip",
+          "name": "+§bHealtBars§8-[v1.5].zip",
+          "type": "File",
+          "artifact": {
+            "size": 244021,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/files/resourcepacks/+%C2%A7bHealtBars%C2%A78-[v1.5].zip",
+            "MD5": "39fab1d33ffe41e11b9f0d7dc5366f97",
+            "path": "resourcepacks/+§bHealtBars§8-[v1.5].zip"
+          }
+        },
+        {
+          "id": "3d-ores-e2820.zip",
+          "name": "3d-ores-e2820.zip",
+          "type": "File",
+          "artifact": {
+            "size": 83551,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/files/resourcepacks/3d-ores-e2820.zip",
+            "MD5": "c61388c40e7e3a19e69b1ff8dc4162b1",
+            "path": "resourcepacks/3d-ores-e2820.zip"
+          }
+        },
+        {
+          "id": "Better+Clear+Glass+1.19.zip",
+          "name": "Better+Clear+Glass+1.19.zip",
+          "type": "File",
+          "artifact": {
+            "size": 56070,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/files/resourcepacks/Better+Clear+Glass+1.19.zip",
+            "MD5": "3cfc8b8d3beb9b62dc3c16c92dff43e1",
+            "path": "resourcepacks/Better+Clear+Glass+1.19.zip"
+          }
+        },
+        {
+          "id": "Clear+Glass+Pack+1.19.zip",
+          "name": "Clear+Glass+Pack+1.19.zip",
+          "type": "File",
+          "artifact": {
+            "size": 588010,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/files/resourcepacks/Clear+Glass+Pack+1.19.zip",
+            "MD5": "48c1d6160bf2adbe656ce94122ea270d",
+            "path": "resourcepacks/Clear+Glass+Pack+1.19.zip"
+          }
+        },
+        {
+          "id": "Faithful+64x.zip",
+          "name": "Faithful+64x.zip",
+          "type": "File",
+          "artifact": {
+            "size": 17477967,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/files/resourcepacks/Faithful+64x.zip",
+            "MD5": "8b45bda74f7a18900b1717ef70861021",
+            "path": "resourcepacks/Faithful+64x.zip"
+          }
+        },
+        {
+          "id": "Quark Programmer Art.zip",
+          "name": "Quark Programmer Art.zip",
+          "type": "File",
+          "artifact": {
+            "size": 266434,
+            "url": "http://astromodsnebula.infinityfreeapp.com/nebula/servers/AstroMods-1.19.2/files/resourcepacks/Quark%20Programmer%20Art.zip",
+            "MD5": "372d5ab8040ea8fbf0265bf9163ff206",
+            "path": "resourcepacks/Quark Programmer Art.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
